@@ -21,7 +21,10 @@
       "value": "main"
     },
     "repositoryToken": {
-      "value": "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"
+      "value": ""
+    },
+    "Provider": {
+      "value": "GitHub"
     },
     "appLocation": {
       "value": "/"
@@ -31,6 +34,12 @@
     },
     "appArtifactLocation": {
       "value": "src"
+    },
+    "stagingEnvironmentPolicy": {
+      "value": "Enabled"
+    },
+    "allowConfigFileUpdates": {
+      "value": true
     },
     "resourceTags": {
       "value": {
