@@ -3,7 +3,7 @@
   "contentVersion": "1.0.0.0",
   "parameters": {
     "name": {
-      "value": "myfirstswadeployment"
+      "value": "myfirstswadeployment4"
     },
     "location": {
       "value": "Central US"
@@ -15,25 +15,25 @@
       "value": "Free"
     },
     "repositoryUrl": {
-      "value": "https://github.com/jeffwmartinez/swa-quickstart.git"
+      "value": "https://github.com/jeffwmartinez/swa-example-2.git"
     },
     "branch": {
       "value": "main"
     },
     "repositoryToken": {
-      "value": ""
+      "value": "<GITHUB-TOKEN>"
     },
     "Provider": {
       "value": "GitHub"
     },
     "appLocation": {
-      "value": "/"
+      "value": "/src/web"
     },
     "apiLocation": {
-      "value": ""
+      "value": "/src/api"
     },
     "appArtifactLocation": {
-      "value": "src"
+      "value": "build"
     },
     "stagingEnvironmentPolicy": {
       "value": "Enabled"
@@ -45,7 +45,7 @@
       "value": {
         "Environment": "Development",
         "Project": "Testing SWA with ARM",
-        "ApplicationName": "myfirstswadeployment"
+        "ApplicationName": "myfirstswadeployment4"
       }
     },
     "appSettings": {

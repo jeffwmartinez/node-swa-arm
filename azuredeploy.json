@@ -23,6 +23,9 @@
     "repositoryToken": {
       "type": "securestring"
     },
+    "Provider": {
+      "type": "string"
+    },
     "appLocation": {
       "type": "string"
     },
@@ -31,6 +34,12 @@
     },
     "appArtifactLocation": {
       "type": "string"
+    },
+    "stagingEnvironmentPolicy": {
+      "type": "string"
+    },
+    "allowConfigFileUpdates": {
+      "type": "bool"
     },
     "resourceTags": {
       "type": "object"
