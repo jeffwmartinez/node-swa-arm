@@ -3,7 +3,7 @@
   "contentVersion": "1.0.0.0",
   "parameters": {
     "name": {
-      "value": "myfirstswadeployment4"
+      "value": "swacosmosdb"
     },
     "location": {
       "value": "Central US"
@@ -45,13 +45,12 @@
       "value": {
         "Environment": "Development",
         "Project": "Testing SWA with ARM",
-        "ApplicationName": "myfirstswadeployment4"
+        "ApplicationName": "swacosmosdb"
       }
     },
     "appSettings": {
       "value": {
-        "MY_APP_SETTING1": "value 1",
-        "MY_APP_SETTING2": "value 2"
+        "COSMOS_CONNECTION_STRING": "[listConnectionStrings(resourceId('Microsoft.DocumentDB/databaseAccounts', parameters('cosmosDbAccountName')), '2019-12-12').connectionStrings[0].connectionString]"
       }
     }
   }
